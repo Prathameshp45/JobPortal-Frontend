@@ -1,0 +1,28 @@
+/* Admin Buttons Styling */
+.admin-buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center;     /* Center the buttons vertically */
+  height: 100vh;           /* Full viewport height */
+}
+
+.admin-btn {
+  background-color: #f8f9fa; /* Light grey background */
+  color: #000; /* Black text color */
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  margin: 0 15px; /* Space between buttons */
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.admin-btn:hover {
+  background-color: #007bff; /* Blue color on hover */
+  color: white; /* White text on hover */
+}
+
+.admin-btn:active {
+  background-color: #0056b3; /* Dark blue color when active */
+}
